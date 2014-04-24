@@ -11,6 +11,14 @@
 		2B6C7C441909028400A3D498 /* ASExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C7C431909028400A3D498 /* ASExtensions.h */; };
 		2B6C7C661909032700A3D498 /* ASColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C7C651909032700A3D498 /* ASColor+Hex.m */; };
 		2B6C7C671909045200A3D498 /* ASColor+Hex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C7C641909032700A3D498 /* ASColor+Hex.h */; };
+		2BC45B7B190915E9002075C1 /* ASNavigationItem+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B74190915E9002075C1 /* ASNavigationItem+Spacing.m */; };
+		2BC45B7C190915E9002075C1 /* ASUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B76190915E9002075C1 /* ASUIImage+Resize.m */; };
+		2BC45B7D190915E9002075C1 /* ASUIView+ModRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B78190915E9002075C1 /* ASUIView+ModRect.m */; };
+		2BC45B7E190915E9002075C1 /* ASUIview+SubviewHunting.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B7A190915E9002075C1 /* ASUIview+SubviewHunting.m */; };
+		2BC45B80190917AE002075C1 /* ASNavigationItem+Spacing.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B73190915E9002075C1 /* ASNavigationItem+Spacing.h */; };
+		2BC45B81190917AE002075C1 /* ASUIView+ModRect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B77190915E9002075C1 /* ASUIView+ModRect.h */; };
+		2BC45B82190917AE002075C1 /* ASUIview+SubviewHunting.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B79190915E9002075C1 /* ASUIview+SubviewHunting.h */; };
+		2BC45B83190917AE002075C1 /* ASUIImage+Resize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -22,6 +30,10 @@
 			files = (
 				2B6C7C441909028400A3D498 /* ASExtensions.h in CopyFiles */,
 				2B6C7C671909045200A3D498 /* ASColor+Hex.h in CopyFiles */,
+				2BC45B80190917AE002075C1 /* ASNavigationItem+Spacing.h in CopyFiles */,
+				2BC45B81190917AE002075C1 /* ASUIView+ModRect.h in CopyFiles */,
+				2BC45B82190917AE002075C1 /* ASUIview+SubviewHunting.h in CopyFiles */,
+				2BC45B83190917AE002075C1 /* ASUIImage+Resize.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -32,9 +44,16 @@
 		2B6C7C3E1909028400A3D498 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2B6C7C421909028400A3D498 /* ASExtensions-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASExtensions-Prefix.pch"; sourceTree = "<group>"; };
 		2B6C7C431909028400A3D498 /* ASExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASExtensions.h; sourceTree = "<group>"; };
-		2B6C7C4F1909028400A3D498 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2B6C7C641909032700A3D498 /* ASColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASColor+Hex.h"; sourceTree = "<group>"; };
 		2B6C7C651909032700A3D498 /* ASColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASColor+Hex.m"; sourceTree = "<group>"; };
+		2BC45B73190915E9002075C1 /* ASNavigationItem+Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASNavigationItem+Spacing.h"; sourceTree = "<group>"; };
+		2BC45B74190915E9002075C1 /* ASNavigationItem+Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASNavigationItem+Spacing.m"; sourceTree = "<group>"; };
+		2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASUIImage+Resize.h"; sourceTree = "<group>"; };
+		2BC45B76190915E9002075C1 /* ASUIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASUIImage+Resize.m"; sourceTree = "<group>"; };
+		2BC45B77190915E9002075C1 /* ASUIView+ModRect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASUIView+ModRect.h"; sourceTree = "<group>"; };
+		2BC45B78190915E9002075C1 /* ASUIView+ModRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASUIView+ModRect.m"; sourceTree = "<group>"; };
+		2BC45B79190915E9002075C1 /* ASUIview+SubviewHunting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASUIview+SubviewHunting.h"; sourceTree = "<group>"; };
+		2BC45B7A190915E9002075C1 /* ASUIview+SubviewHunting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASUIview+SubviewHunting.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				2B6C7C3E1909028400A3D498 /* Foundation.framework */,
-				2B6C7C4F1909028400A3D498 /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -80,10 +98,26 @@
 			children = (
 				2B6C7C421909028400A3D498 /* ASExtensions-Prefix.pch */,
 				2B6C7C431909028400A3D498 /* ASExtensions.h */,
-				2B6C7C641909032700A3D498 /* ASColor+Hex.h */,
-				2B6C7C651909032700A3D498 /* ASColor+Hex.m */,
+				2BC45B7F190915F3002075C1 /* Categories */,
 			);
 			path = ASExtensions;
+			sourceTree = "<group>";
+		};
+		2BC45B7F190915F3002075C1 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				2B6C7C641909032700A3D498 /* ASColor+Hex.h */,
+				2B6C7C651909032700A3D498 /* ASColor+Hex.m */,
+				2BC45B73190915E9002075C1 /* ASNavigationItem+Spacing.h */,
+				2BC45B74190915E9002075C1 /* ASNavigationItem+Spacing.m */,
+				2BC45B77190915E9002075C1 /* ASUIView+ModRect.h */,
+				2BC45B78190915E9002075C1 /* ASUIView+ModRect.m */,
+				2BC45B79190915E9002075C1 /* ASUIview+SubviewHunting.h */,
+				2BC45B7A190915E9002075C1 /* ASUIview+SubviewHunting.m */,
+				2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */,
+				2BC45B76190915E9002075C1 /* ASUIImage+Resize.m */,
+			);
+			name = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +171,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC45B7B190915E9002075C1 /* ASNavigationItem+Spacing.m in Sources */,
 				2B6C7C661909032700A3D498 /* ASColor+Hex.m in Sources */,
+				2BC45B7C190915E9002075C1 /* ASUIImage+Resize.m in Sources */,
+				2BC45B7E190915E9002075C1 /* ASUIview+SubviewHunting.m in Sources */,
+				2BC45B7D190915E9002075C1 /* ASUIView+ModRect.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +213,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
@@ -207,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				OTHER_LDFLAGS = "";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -257,6 +295,7 @@
 				2B6C7C601909028400A3D498 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

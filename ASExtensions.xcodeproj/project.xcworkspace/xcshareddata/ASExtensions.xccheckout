@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A1B058E3-69BA-41A1-8328-5BAC7AEFB30A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ASExtensions</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>5B412682-6DC9-4BB8-8F96-C276E505AB9B</key>
+		<string>ssh://github.com/ntaku/ASExtensions.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ASExtensions.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>5B412682-6DC9-4BB8-8F96-C276E505AB9B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ntaku/ASExtensions.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>5B412682-6DC9-4BB8-8F96-C276E505AB9B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>5B412682-6DC9-4BB8-8F96-C276E505AB9B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ASExtensions</string>
+		</dict>
+	</array>
+</dict>
+</plist>
