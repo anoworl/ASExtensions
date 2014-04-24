@@ -19,6 +19,7 @@
 		2BC45B81190917AE002075C1 /* ASUIView+ModRect.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B77190915E9002075C1 /* ASUIView+ModRect.h */; };
 		2BC45B82190917AE002075C1 /* ASUIview+SubviewHunting.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B79190915E9002075C1 /* ASUIview+SubviewHunting.h */; };
 		2BC45B83190917AE002075C1 /* ASUIImage+Resize.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */; };
+		2BC45B8C190922F3002075C1 /* dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B8B190922F3002075C1 /* dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -54,6 +55,7 @@
 		2BC45B78190915E9002075C1 /* ASUIView+ModRect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASUIView+ModRect.m"; sourceTree = "<group>"; };
 		2BC45B79190915E9002075C1 /* ASUIview+SubviewHunting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASUIview+SubviewHunting.h"; sourceTree = "<group>"; };
 		2BC45B7A190915E9002075C1 /* ASUIview+SubviewHunting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASUIview+SubviewHunting.m"; sourceTree = "<group>"; };
+		2BC45B8B190922F3002075C1 /* dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dummy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 				2B6C7C421909028400A3D498 /* ASExtensions-Prefix.pch */,
 				2B6C7C431909028400A3D498 /* ASExtensions.h */,
 				2BC45B7F190915F3002075C1 /* Categories */,
+				2BC45B8B190922F3002075C1 /* dummy.m */,
 			);
 			path = ASExtensions;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BC45B8C190922F3002075C1 /* dummy.m in Sources */,
 				2BC45B7B190915E9002075C1 /* ASNavigationItem+Spacing.m in Sources */,
 				2B6C7C661909032700A3D498 /* ASColor+Hex.m in Sources */,
 				2BC45B7C190915E9002075C1 /* ASUIImage+Resize.m in Sources */,
