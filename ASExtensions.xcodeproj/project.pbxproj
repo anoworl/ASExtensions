@@ -11,6 +11,8 @@
 		2B6C7C441909028400A3D498 /* ASExtensions.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C7C431909028400A3D498 /* ASExtensions.h */; };
 		2B6C7C661909032700A3D498 /* ASColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6C7C651909032700A3D498 /* ASColor+Hex.m */; };
 		2B6C7C671909045200A3D498 /* ASColor+Hex.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B6C7C641909032700A3D498 /* ASColor+Hex.h */; };
+		2B8A0582199058C400713B39 /* ASNSString+SurrogatePair.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B8A0581199058C400713B39 /* ASNSString+SurrogatePair.m */; };
+		2B8A05831990598D00713B39 /* ASNSString+SurrogatePair.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2B8A0580199058C400713B39 /* ASNSString+SurrogatePair.h */; };
 		2BC45B7B190915E9002075C1 /* ASNavigationItem+Spacing.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B74190915E9002075C1 /* ASNavigationItem+Spacing.m */; };
 		2BC45B7C190915E9002075C1 /* ASUIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B76190915E9002075C1 /* ASUIImage+Resize.m */; };
 		2BC45B7D190915E9002075C1 /* ASUIView+ModRect.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BC45B78190915E9002075C1 /* ASUIView+ModRect.m */; };
@@ -31,6 +33,7 @@
 			files = (
 				2B6C7C441909028400A3D498 /* ASExtensions.h in CopyFiles */,
 				2B6C7C671909045200A3D498 /* ASColor+Hex.h in CopyFiles */,
+				2B8A05831990598D00713B39 /* ASNSString+SurrogatePair.h in CopyFiles */,
 				2BC45B80190917AE002075C1 /* ASNavigationItem+Spacing.h in CopyFiles */,
 				2BC45B81190917AE002075C1 /* ASUIView+ModRect.h in CopyFiles */,
 				2BC45B82190917AE002075C1 /* ASUIview+SubviewHunting.h in CopyFiles */,
@@ -47,6 +50,8 @@
 		2B6C7C431909028400A3D498 /* ASExtensions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ASExtensions.h; sourceTree = "<group>"; };
 		2B6C7C641909032700A3D498 /* ASColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASColor+Hex.h"; sourceTree = "<group>"; };
 		2B6C7C651909032700A3D498 /* ASColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASColor+Hex.m"; sourceTree = "<group>"; };
+		2B8A0580199058C400713B39 /* ASNSString+SurrogatePair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASNSString+SurrogatePair.h"; sourceTree = "<group>"; };
+		2B8A0581199058C400713B39 /* ASNSString+SurrogatePair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASNSString+SurrogatePair.m"; sourceTree = "<group>"; };
 		2BC45B73190915E9002075C1 /* ASNavigationItem+Spacing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASNavigationItem+Spacing.h"; sourceTree = "<group>"; };
 		2BC45B74190915E9002075C1 /* ASNavigationItem+Spacing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ASNavigationItem+Spacing.m"; sourceTree = "<group>"; };
 		2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ASUIImage+Resize.h"; sourceTree = "<group>"; };
@@ -119,6 +124,8 @@
 				2BC45B7A190915E9002075C1 /* ASUIview+SubviewHunting.m */,
 				2BC45B75190915E9002075C1 /* ASUIImage+Resize.h */,
 				2BC45B76190915E9002075C1 /* ASUIImage+Resize.m */,
+				2B8A0580199058C400713B39 /* ASNSString+SurrogatePair.h */,
+				2B8A0581199058C400713B39 /* ASNSString+SurrogatePair.m */,
 			);
 			name = Categories;
 			sourceTree = "<group>";
@@ -180,6 +187,7 @@
 				2BC45B7C190915E9002075C1 /* ASUIImage+Resize.m in Sources */,
 				2BC45B7E190915E9002075C1 /* ASUIview+SubviewHunting.m in Sources */,
 				2BC45B7D190915E9002075C1 /* ASUIView+ModRect.m in Sources */,
+				2B8A0582199058C400713B39 /* ASNSString+SurrogatePair.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
